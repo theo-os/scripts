@@ -5,9 +5,10 @@ This repository contains the scripts required to build a minimal ISO of ParisOS.
 ## Requirements
 
 - a linux machine
-- rustup/rust nightly
+- [rustup/rust nightly](https://rustup.rs)
 - xorriso
 - mkisofs
+- [nushell](https://www.nushell.sh/book)
 - root access with sudo
 - a C toolchain (such as clang), along with make and bc
 
