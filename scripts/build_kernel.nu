@@ -6,6 +6,7 @@
 	build/kernel)
 
 cd build/kernel
+cp ../../kernel-config.cfg ./.config
 make olddefconfig
-make -j"$(nproc)"
+make -j 4 
 cd ../../

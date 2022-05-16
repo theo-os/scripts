@@ -18,6 +18,7 @@ This repository contains the scripts required to build a minimal ISO of ParisOS.
 ./scripts/build_kernel.nu
 ./scripts/build_shell.nu
 ./scripts/build_limine.nu
+./scripts/build_utils.nu
 ./scripts/build_iso.nu
 ```
 
