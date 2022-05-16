@@ -1,6 +1,6 @@
-# ParisOS Build Scripts
+# TheOS Build Scripts
 
-This repository contains the scripts required to build a minimal ISO of ParisOS.
+This repository contains the scripts required to build a minimal ISO of TheOS.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ This repository contains the scripts required to build a minimal ISO of ParisOS.
 ./scripts/build_shell.nu
 ./scripts/build_limine.nu
 ./scripts/build_utils.nu
-./scripts/build_iso.nu
+./scripts/build_sysroot.nu
 ```
 
 The last command will prompt you for a sudo password, which is only required to create the device nodes for linux to function.
@@ -27,6 +27,6 @@ The last command will prompt you for a sudo password, which is only required to 
 ## Running With QEMU
 
 ```nushell
-qemu-system-x86_64 -hda build/theos.iso -m 1024 -serial stdio
+./scripts/run_qemu.nu
 ```
 
